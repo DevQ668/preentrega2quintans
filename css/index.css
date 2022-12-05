@@ -90,6 +90,13 @@ img {
   max-width: 600px;
 }
 
+/* BOOTSTRAP DESREBOOT */
+
+ol, ul, dl {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
 /* HEADER */
 
 header {
