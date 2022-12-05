@@ -78,11 +78,11 @@ img {
   margin: auto;
 }
 
-.bg-primary {
+.bg-principal {
   background-color: var(--primary);
 }
 
-.bg-dark {
+.bg-obscure {
   background-color: var(--secondary);
 }
 
