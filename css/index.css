@@ -106,6 +106,10 @@ a:hover {
 header {
   padding: var(--sp-xs);
   background-color: var(--secondary);
+  position: fixed;
+  right: 0px;
+  left: 0px;
+  opacity: 90%;
 }
 
 .navbar {
@@ -116,8 +120,8 @@ header {
 
 .navbar .navbar__link {
   /* display: inline-block; */
-  min-width: 80px;
-  max-width: 80px;
+  min-width: 50px;
+  max-width: 50px;
 }
 
 .navbar .menu {
@@ -126,6 +130,7 @@ header {
   gap: 1rem;
   flex-wrap: wrap;
   align-items: center;
+  font-weight: 100;
 }
 
 .menu .menu__item {
@@ -140,7 +145,7 @@ header {
 }
 
 .menu .menu__link:hover {
-  background-color: var(--primary);
+  color: var(--accent);
   padding: var(--sp-xs);
 }
 
