@@ -391,6 +391,43 @@ footer .container {
 }
 
 /* WIRELESS */
+
+#wirls {
+  padding: var(--sp-xl);
+}
+
+#wirls div {
+  display: flex;
+  gap: var(--sp-md);
+  color: var(--light);
+}
+
+.wirls__article {
+  flex: 1 1 50%;
+}
+
+.wirls__article:first-of-type {
+  border-right: 1px solid var(--light);
+}
+
+.wirls__title {
+  font-size: var(--text-lg);
+  font-weight: 300;
+  margin-bottom: 2.2rem;
+}
+
+.wirls__text {
+  font-size: var(--text-sm);
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.wirls__caption {
+  font-size: var(--text-xs);
+  font-weight: 300;
+}
+
+/* WIRELESS */
 /* ORDERW */
 
 #orderw {
@@ -403,6 +440,11 @@ footer .container {
   gap: var(--sp-md);
 }
 
+.orderw__title {
+  font-size: var(--sp-md);
+  color: var(--secondary);
+}
+
 #orderw div .card {
   padding-top: 5px;
 }
@@ -410,6 +452,19 @@ footer .container {
 #orderw div .card-body {
   padding-top: 0%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
