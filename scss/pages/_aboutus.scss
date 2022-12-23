@@ -1,0 +1,139 @@
+/* BANNER */
+
+#banner {
+  display: grid;
+  place-items: center;
+}
+
+/* ABOUT-US */
+
+#aboutus {
+  padding: var(--sp-xl);
+}
+
+#aboutus div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-md);
+  color: var(--light);
+}
+
+.aboutus__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--sp-md);
+  
+}
+
+.aboutus__title {
+  font-size: var(--text-md);
+  position: relative;
+  color: var(--secondary);
+}
+
+.aboutus__title::before {
+  content: '';
+  width: 30px;
+  height: 7px;
+  background-color: var(--primary);
+  position: absolute;
+  top: -20px;
+}
+
+.aboutus__text {
+  font-size: var(--text-xs);
+  font-weight: 300;
+  line-height: 160%;
+  color: var(--secondary);
+}
+
+.aboutus__link {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-sm);
+  color: var(--secondary);
+  font-size: var(--text-xs);
+  font-weight: bold;
+}
+
+.aboutus__link:hover {
+  color: var(--primary);
+}
+
+.aboutus__link svg {
+  transition: all .5s ease-in;
+}
+
+.aboutus__link:hover svg {
+  transform: translateX(20px);
+}
+
+/* ABOUT-US-M */
+
+#mission {
+  padding: var(--sp-xl);
+}
+
+#mission div {
+  display: flex;
+  color: var(--light);
+}
+
+.mission__article {
+  flex: 1 1 50%;
+}
+
+.mission__article:nth-last-of-type(1) {
+  border-top: 1px solid var(--primary);
+  border-right: 1px solid var(--primary);
+  padding: var(--sp-md);
+}
+
+.mission__title {
+  font-size: var(--text-md);
+  font-weight: 200;
+  margin-bottom: 2.2rem;
+}
+
+.mission__text {
+  font-size: var(--text-xs);
+  font-weight: 200;
+  margin-bottom: 2rem;
+}
+
+/* ABOUT-US-V */
+
+#vision {
+  padding: var(--sp-xl);
+}
+
+#vision div {
+  display: flex;
+  direction: rtl;
+  gap: var(--sp-md);
+  color: var(--secondary);
+}
+
+.vision__article {
+  flex: 1 1 50%;
+}
+
+.vision__article:first-of-type {
+  border-bottom: 1px solid var(--primary);
+  border-left: 1px solid var(--primary);
+  padding: var(--sp-md);
+}
+
+.vision__title {
+  font-size: var(--text-md);
+  font-weight: 200;
+  margin-bottom: 2.2rem;
+  
+}
+
+.vision__text {
+  font-size: var(--text-xs);
+  font-weight: 200;
+  margin-bottom: 2rem;
+}
