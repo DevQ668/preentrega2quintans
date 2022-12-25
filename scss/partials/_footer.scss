@@ -3,26 +3,26 @@
 footer {
   display: flex;
   flex-direction: column;
-  gap: var(--sp-md);
-  padding: var(--sp-md);
-  background-color: var(--accent);
+  gap: $sp-md;
+  padding: $sp-md;
+  background-color: $accent;
 }
 
 footer .container {
-  background-color: var(--accent);
+  background-color: $accent;
 }
 
 .row__l {
   display: flex;
   justify-content: space-between;
   padding: 40px 100px;
-  gap: var(--sp-lg);
+  gap: $sp-lg;
 }
 
 .footer__col h4 {
-  color: var(--light);
-  margin-bottom: var(--sp-md);
-  font-size: var(--sp-sm);
+  color: $light;
+  margin-bottom: $sp-md;
+  font-size: $sp-sm;
   position: relative;
 }
 
@@ -31,7 +31,7 @@ footer .container {
   width: 70px;
   height: 2px;
   position: absolute;
-  background-color: var(--secondary);
+  background-color: $secondary;
   bottom: -10px;
 }
 
@@ -40,9 +40,9 @@ footer .container {
 }
 
 .footer__col ul li a {
-  color: var(--light);
+  color: $light;
   text-decoration: none;
-  font-size: var(--sp-sm);
+  font-size: $sp-sm;
   opacity: 0.7;
   transition: 0.5s;
 }
@@ -64,23 +64,23 @@ footer .container {
 
 .footer__col .inputsubmit {
   padding: 0px 20px;
-  background-color: var(--primary);
+  background-color: $primary;
   border: none;
-  color: var(--light);
+  color: $light;
 }
 
 .divider {
   content: "";
   width: 100%;
   height: 1px;
-  background-color: var(--light);
+  background-color: $light;
 }
 
 .col p{
-  padding-top: var(--sp-md);
-  margin-bottom: var(--sp-lg);
-  color: var(--light);
-  font-size: var(--sp-sm);
+  padding-top: $sp-md;
+  margin-bottom: $sp-lg;
+  color: $light;
+  font-size: $sp-sm;
   font-weight: 50;
 }
 
@@ -93,13 +93,13 @@ footer .container {
 }
 
 .socialicons {
-  padding: var(--sp-md);
+  padding: $sp-md;
 }
 
 .row__S .socialicons {
   display: inline-block;
-  color: var(--light);
-  font-size: var(--sp-sm);
+  color: $light;
+  font-size: $sp-sm;
   margin: 0 15px;
   transition: 0.5s;
   
@@ -114,7 +114,7 @@ footer .container {
   flex-direction: column;
   justify-content: space-between;
   padding: 40px 100px;
-  gap: var(--sp-lg);
+  gap: $sp-lg;
 }
   footer .row__s {
     flex-direction: column;

@@ -1,6 +1,6 @@
 /* HEADER */
 header {
-  padding: var(--sp-xs);
+  padding: $sp-xs;
   background-color: black;
   position: fixed;
   right: 0px;
@@ -19,7 +19,7 @@ header {
 
     .hamburger {
       display: none;
-      color: var(--light);
+      color: $light;
       width: 50px;
       height: 29px;
     }
@@ -45,13 +45,13 @@ header {
       }
       
       &__link {
-        padding: var(--sp-xs);
-        color: var(--light);
+        padding: $sp-xs;
+        color: $light;
         transition: all .3s ease-in-out;
 
         &:hover {
-          color: var(--accent);
-          padding: var(--sp-xs);
+          color: $accent;
+          padding: $sp-xs;
         }
       }
     }
@@ -65,7 +65,7 @@ header {
 @media screen and (max-width: 768px) {
   .navbar {
     align-items: center;
-    font-size: var(--sp-sm);
+    font-size: $sp-sm;
   }
 
   .navbar .menu {
