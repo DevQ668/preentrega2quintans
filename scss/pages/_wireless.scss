@@ -1,0 +1,146 @@
+/* BANNER */
+
+#banner {
+  display: grid;
+  place-items: center;
+}
+
+/* WIRLS */
+
+#wirls {
+  padding: $sp-xl;
+}
+
+#wirls div {
+  display: flex;
+  color: $light;
+}
+
+.wirls__article {
+  flex: 1 1 50%;
+}
+
+.wirls__article:nth-last-of-type(1) {
+  border-right: 1px solid $primary;
+}
+
+.wirls__title {
+  font-size: $text-md;
+  font-weight: 200;
+  margin-bottom: 2.2rem;
+}
+
+.wirls__text {
+  font-size: $text-xs;
+  font-weight: 200;
+  margin-bottom: 2rem;
+}
+
+/* ORDERW */
+
+#orderw {
+  padding: $sp-md;
+}
+
+#orderw div {
+  padding-top: $sp-md;
+  padding-bottom: $sp-md;
+  gap: $sp-md;
+}
+
+.orderw__title {
+  font-size: $sp-md;
+  color: $secondary;
+}
+
+#orderw div .card {
+  padding-top: 5px;
+}
+
+#orderw div .card-body {
+  padding-top: 0%;
+}
+
+/* WIRLSS */
+
+#wirlss {
+  padding: $sp-xl;
+}
+
+#wirlss div {
+  display: flex;
+  gap: $sp-md;
+  color: $light;
+}
+
+.wirlss__article {
+  flex: 1 1 50%;
+}
+
+.wirlss__article:first-of-type {
+  border-right: 1px solid $primary;
+}
+
+
+.wirlss__articlee {
+  flex: 1 1 50%;
+}
+
+.wirlss__articlee:nth-last-of-type(1) {
+  border-right: 1px solid $primary;
+}
+
+.wirlss__title {
+  font-size: $text-lg;
+  font-weight: 300;
+  margin-bottom: 2.2rem;
+}
+
+.wirlss__text {
+  font-size: $text-sm;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.wirlss__caption {
+  font-size: $text-xs;
+  font-weight: 300;
+}
+
+/* MEDIAS */
+/* WIRLS */
+
+@media screen and (max-width: 768px) {
+  #wirls div {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .wirls__article:nth-last-of-type(1) {
+    border-right-style: none; 
+    border-bottom: 1px solid $primary;
+    padding-bottom: $sp-sm;
+  }
+}
+
+/* WIRLSS */
+
+@media screen and (max-width: 768px) {
+  #wirlss div {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .wirlss__article:first-of-type {
+    border-right: none;
+    border-bottom: 1px solid $primary;
+    padding-bottom: $sp-sm;
+  }
+  
+  .wirlss__articlee:nth-last-of-type(1) {
+    border-right-style: none; 
+    border-bottom: 1px solid $primary;
+    padding-bottom: $sp-sm;
+  }
+}
+

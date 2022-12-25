@@ -1,0 +1,67 @@
+/* NORMALIZE */ 
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: $text-sm;
+  color: $secondary;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  color: $secondary;
+}
+
+a {
+  font-size: $text-xs;
+  text-decoration: none;
+  color: $light;
+}
+
+p {
+  font-size: 1.6em;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.bg-principal {
+  background-color: $primary;
+}
+
+.bg-obscure {
+  background-color: $secondary;
+}
+
+.content {
+  max-width: 600px;
+}
+
+/* BOOTSTRAP DESREBOOT */
+
+ol, ul, dl {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+a:hover {
+  color: inherit;
+}

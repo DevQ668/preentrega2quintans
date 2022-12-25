@@ -5,15 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DQuiboards</title>
-    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <!-- <link rel="stylesheet" href="../css/index.css"> -->
+    <link rel="stylesheet" href="../css/translated.css">
+    <link rel="icon" type="image/png" href="../resources/img/DQ-BRAND-LOGO.png">
   </head>
   <body id="top">
     <!-- HEADER -->
     <header>
-      <nav class="navbar container">
+      <nav class="navbar container"> <!-- navbar start -->
+        <!-- branding -->
         <a class="navbar__link" href="#top">
           <img src="../resources/img/DQ-BRAND-LOGO.png" alt="Logo brand">
         </a>
+        <!-- hamburger -->
+        <svg class="hamburger" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2 s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2 S29.104,22,28,22z" fill="white"></path></svg>
+        <input type="checkbox" class="checkevent" name="hamburger" id="hamburger">
+        <!-- nav-links -->
         <ul class="menu">
           <li class="menu__item">
             <a class="menu__link" href="../index.html">Home</a>
@@ -31,15 +40,43 @@
             <a class="menu__link" href="./aboutus.html">About Us</a>
           </li>
         </ul>
-      </nav>
+      </nav> <!-- navbar end -->
     </header>
     <!-- BANNER -->
     <section id="banner">
-      <img src="../resources/img/aboutus_b_1.png" alt="banner">
+      <img src="../resources/img/aboutus_b_1.png" alt="bannerau">
     </section>
-    <!-- ABOUT US 1 -->
     <main>
-      <section id="design" class="bg-principal">
+      <!-- ABOUT-US -->
+      <section id="aboutus" class="bg-white">
+        <div class="container">
+          <article class="aboutus__info">
+            <h2 class="aboutus__title">About Us</h2>
+            <p class="aboutus__text">DQboards was formed in 2013 by a group of keyboard enthusiasts who have extensive experience in keyboard manufacturing. The group consists of designers, marketers, and production experts. Our core team members have 10 years of experience in keyboard production and related businesses and experience in industrial design. We’ve dedicate ourselves to creating the most sophisticated mechanical keyboards with minimalist designs. We are registered as Siki Eagle Sarl in 1, Esplanade Miriam Makeba, 69100 Villeurbanne, France. Hong Kong company address: 13/F, Prosper Commercial Bldg., 9 Yin Chong Street, Kowloon, Hong Kong</p>
+            <p class="aboutus__text">We’ve partnered a factory with 20 years of experience, which produces top-notch keyboards for many well-known keyboard brands over the years. We can assure you that the DQ keyboard will never fail you.</p>
+            <a class="aboutus__link" href="./aboutus.html">DQ</a>
+          </article>
+        </div>
+      </section>
+      <!-- ABOUT-US-M -->
+      <section id="mission" class="bg-obscure">
+        <div class="container">
+          <article class="mission__article">
+            <h1 class="mission__title content">Mission</h1>
+            <p class="mission__text content">To leverage the latest in computer science and the expertise of invaluable thinkers and doers to make technology widely accessible and usable by all</p>
+          </article>
+        </div>
+      </section>
+      <!-- ABOUT-US-V -->
+      <section id="vision" class="bg-white">
+        <div class="container">
+          <article class="vision__article">
+            <h1 class="vision__title content">Vision</h1>
+            <p class="vision__text content">To be the foremost driver that pioneers the latest technological breakthroughts to propel our society toward the perfect blend of science and art</p>
+          </article>
+        </div>
+      </section>
+      <!-- <section id="design" class="bg-principal">
         <div class="container">
           <article class="design__article">
             <h1 class="design__title content">About Us
@@ -52,34 +89,9 @@
             <p class="design__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis asperiores ipsam harum vel, perferendis, tenetur rem vero aliquam quisquam fugit commodi ab ullam eos, minus dolores ducimus. Repudiandae nam consequuntur magni!</p>
           </article>
         </div>
-      </section>
-      <!-- ABOUT US 2 -->
-      <section id="ongoing" class="bg-obscure">
-        <div class="container">
-          <article class="ongoing__images">
-            <figure class="ongoing__img">
-              <img src="#" alt="">
-            </figure>
-            <figure class="ongoing__img">
-              <img src="" alt="">
-            </figure>
-            <figure class="ongoing__img">
-              <img src="" alt="">
-            </figure>
-          </article>
-          <article class="ongoing__info">
-            <h2 class="ongoing__title">Lorem, ipsum.</h2>
-            <h3 class="ongoing__subtitle">lorem</h3>
-            <p class="ongoing__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus maiores architecto dolor at alias. Vero, impedit soluta ipsum eaque sint deserunt error?</p>
-            <a class="ongoing__link" href="./aboutus.html">See More
-              <svg width="46" height="24" viewBox="0 0 46 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M45.0607 13.0607C45.6464 12.4749 45.6464 11.5251 45.0607 10.9393L35.5147 1.3934C34.9289 0.807612 33.9792 0.807612 33.3934 1.3934C32.8076 1.97918 32.8076 2.92893 33.3934 3.51472L41.8787 12L33.3934 20.4853C32.8076 21.0711 32.8076 22.0208 33.3934 22.6066C33.9792 23.1924 34.9289 23.1924 35.5147 22.6066L45.0607 13.0607ZM0 13.5H44V10.5H0V13.5Z" fill="#990000"/>
-              </svg>
-            </a>
-          </article>
-        </div>
-      </section>
-      <form action="enviar.php" method="" enctype="">
+      </section> -->
+      <!-- FORM -->
+      <form action="enviar.php" method="" enctype="" class="bg-principal">
         <div>
           <label for="nombre">Name</label>
           <input type="text" id="nombre" placeholder="Tipe your name..." required>
@@ -189,5 +201,6 @@
         </div>
       </footer>
     </main>
+    <script src="../js/bootstrap.bundle.js"></script>
   </body>
 </html>
